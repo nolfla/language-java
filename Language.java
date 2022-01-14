@@ -22,8 +22,15 @@ public static void main(String[] args)
 {
 Language spanish = new Language("Spanish", 555000000, "Spain, Latin America, and Equatorial Guinea", "subject-verb-object");
 spanish.getInfo();
+
 Language mayan = new Language("Ki'che'", 2330000, "Central America", "verb-object-subject");
 mayan.getInfo();
+
+Language chinese = new Language("Mandarin Chinese", 13000000, "Asia", "subject-verb-object");
+chinese.getInfo();
+
+Language burmese = new Language("Burmese", 13000000, "Asia", "subject-object-verb");
+burmese.getInfo();
 }
 
 }
